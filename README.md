@@ -26,7 +26,7 @@ Format: Day 1 is a lecture with quizzes. Days 2 and 3 are 60 minutes of lecture 
 
 - name the scale of a variable and let it choose the summary and the test
 - say what a standard deviation describes and what a standard error describes
-- read a confidence interval as a statement about compatible values
+- interpret a confidence interval
 - state what a p-value asks and what it cannot answer
 - pick the right test from the decision table for a two-group comparison
 - read the output of `t.test`, `wilcox.test`, `chisq.test`, `fisher.test` and `power.t.test`
