@@ -25,8 +25,7 @@ Format: Day 1 is a lecture with quizzes. Days 2 and 3 are 60 minutes of lecture 
 **By the end you should be able to**
 
 - name the scale of a variable and let it choose the summary and the test
-- say what a standard deviation describes and what a standard error describes, and why confusing
-  them halves every interval in a paper
+- say what a standard deviation describes and what a standard error describes
 - read a confidence interval as a statement about compatible values
 - state what a p-value asks and what it cannot answer
 - pick the right test from the decision table for a two-group comparison
