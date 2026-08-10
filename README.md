@@ -6,6 +6,10 @@ Audience: dentists and dental researchers. No prior statistics, no prior program
 Format: Day 1 is a lecture with quizzes. Days 2 and 3 are 60 minutes of lecture followed by
 30 minutes of hands-on work in R.
 
+For an introduction to R you may also want to refer to 
+Yarr: The Pirates Guide to R’ by Nathaniel Phillips.
+https://nathanieldphillips-yarrr.share.connect.posit.cloud/
+
 
 ## Day 1 · Clinical Epidemiology & Study Design
 
