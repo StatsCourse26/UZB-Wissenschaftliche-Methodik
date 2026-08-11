@@ -10,6 +10,10 @@ For an introduction to R you may also want to refer to
 Yarr: The Pirates Guide to R’ by Nathaniel Phillips.
 https://nathanieldphillips-yarrr.share.connect.posit.cloud/
 
+You can work in R online with a free account at posit.cloud, or install R and RStudio locally on your computer.
+For installing R go https://cran.r-project.org/
+For installing RStudio go to https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads
+
 
 ## Day 1 · Clinical Epidemiology & Study Design
 
