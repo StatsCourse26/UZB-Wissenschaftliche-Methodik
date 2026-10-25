@@ -1,6 +1,6 @@
 # Syllabus
 
-## Studiendesign und Statistik** — three sessions of 90 minutes.
+## Studiendesign und Statistik — three sessions of 90 minutes.
 
 Audience: dentists and dental researchers. No prior statistics, no prior programming.
 Format: Day 1 is a lecture with quizzes. Days 2 and 3 are 60 minutes of lecture followed by
@@ -38,7 +38,7 @@ For installing RStudio go to https://docs.posit.co/ide/user/#rstudio-ide-oss-dow
 - state what a p-value asks and what it cannot answer
 - pick the right test from the decision table for a two-group comparison
 - read the output of `t.test`, `wilcox.test`, `chisq.test`, `fisher.test` and `power.t.test`
-- explain why a split-mouth design settles with twelve patients what twenty could not
+- explain why a split-mouth design requires less patients
 
 
 ## Day 3 · Introduction to Resampling Statistics & Hands-on in R
