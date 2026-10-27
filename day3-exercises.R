@@ -123,7 +123,7 @@ hist(dif, breaks = 40, xlab = "difference in median cost (CHF)",
 abline(v = median(dia) - median(con), col = "red",    lwd = 2)
 abline(v = 0,                         col = "grey40", lty = 2)
 abline(v = -195, col= "blue")
-abline(V = 270, col = "blue")
+abline(v = 270, col = "blue")
 
 
 # ==================================================================
