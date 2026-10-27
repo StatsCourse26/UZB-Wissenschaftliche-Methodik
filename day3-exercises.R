@@ -122,10 +122,8 @@ hist(dif, breaks = 40, xlab = "difference in median cost (CHF)",
      main = "10 000 bootstrap differences")
 abline(v = median(dia) - median(con), col = "red",    lwd = 2)
 abline(v = 0,                         col = "grey40", lty = 2)
- 
-# The interval straddles zero and is wider than the median itself.
-# The pockets differed (part 3); the costs do not - and 10 patients
-# per group could not have shown it either way.
+abline(v = -195, col= "blue)
+abline(V = 270, col = "blue")
 
 
 # ==================================================================
