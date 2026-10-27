@@ -101,6 +101,32 @@ hist(meds, breaks = 40, xlab = "CHF", main = "10 000 bootstrap medians")
 # Your turn: put mean in place of median in the two lines above.
 # Nothing else has to change - that is the point of the method.
 
+# ---- 5. Bootstrap: a difference between two groups ---------------
+# Question: do diabetic patients cost more than controls?
+# Each group is redrawn separately and keeps its own size.
+# Compare with part 3, where the labels were deliberately pooled.
+ 
+dia <- d$cost[d$group == "diabetes"]     # 10 patients
+con <- d$cost[d$group == "control"]      # 10 patients
+ 
+median(dia)                          # 230 CHF
+median(con)                          # 235 CHF
+median(dia) - median(con)            # -5 CHF
+ 
+dif <- replicate(10000, median(sample(dia, 10, TRUE)) -
+                        median(sample(con, 10, TRUE)))
+ 
+quantile(dif, c(0.025, 0.975))       # about -195 to +270 CHF
+ 
+hist(dif, breaks = 40, xlab = "difference in median cost (CHF)",
+     main = "10 000 bootstrap differences")
+abline(v = median(dia) - median(con), col = "red",    lwd = 2)
+abline(v = 0,                         col = "grey40", lty = 2)
+ 
+# The interval straddles zero and is wider than the median itself.
+# The pockets differed (part 3); the costs do not - and 10 patients
+# per group could not have shown it either way.
+
 
 # ==================================================================
 #  Extra, if there is time
