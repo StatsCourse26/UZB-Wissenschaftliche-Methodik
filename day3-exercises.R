@@ -150,6 +150,7 @@ ns <- replicate(2000, {
 })
 quantile(ns, c(0.025, 0.975))      # 11 to 46 - plan for the top end
 hist(ns, breaks = 30, xlab = "n", main = "Required n per group")
+mean(ns>28) #risk of being underpowered with 28 patients per group
 
 
 # ==================================================================
